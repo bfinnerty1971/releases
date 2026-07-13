@@ -5,13 +5,7 @@ lib_deps =
     DFRobot_RGBLCD1602 
 
 
-
-
-
-
-
 Example below:
-
 ; PlatformIO Project Configuration File
 ;
 ;   Build options: build flags, source filter
