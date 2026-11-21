@@ -1,15 +1,17 @@
 ------------------------------------------------------------------------------------
 
 User_Setup.h
-Step 1. Enable ILI9488_DRIVER
+Step 1. Enable HSPI_PORT
+	Enable: Add #define USE_HSPI_PORT
+
+Step 2. Enable ILI9488_DRIVER
 	Disable: //#define ILI9341_DRIVER
 	Enable:  #define ILI9488_DRIVER
 
-
-Step 2. Disable pinouts
+Step 3. Disable pinouts
 	Disable: Add // in front of the pin descriptions in which you need to disable
 
-Step 3. Enable Touch Chip Select
+Step 4. Enable Touch Chip Select
 	#define TOUCH_CS 14     // Chip select pin (T_CS) of touch screen
 
 ------------------------------------------------------------------------------------
@@ -30,7 +32,6 @@ Step 1. Add the correct pinout for SPI bus interface
 	#define TFT_CS   10  // Chip select control pin
 	#define TFT_DC    6  // Data Command control pin
 	#define TFT_RST   7  // Reset pin (could connect to RST pin)
-	//#define TFT_RST  -1  // Set TFT_RST to -1 if display RESET is connected to ESP32 board RST
 	#define TOUCH_CS 14     // Chip select pin (T_CS) of touch screen
 
 ------------------------------------------------------------------------------------
