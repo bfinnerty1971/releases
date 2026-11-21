@@ -11,9 +11,6 @@ Step 2. Enable ILI9488_DRIVER
 Step 3. Disable pinouts
 	Disable: Add // in front of the pin descriptions in which you need to disable
 
-Step 4. Enable Touch Chip Select
-	#define TOUCH_CS 14     // Chip select pin (T_CS) of touch screen
-
 ------------------------------------------------------------------------------------
 
 User_Setup_Select.h
