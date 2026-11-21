@@ -22,8 +22,6 @@ Step 1. Include the ILI9488_DRIVER
 
 ------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------
-
 User_Setups\Setup21_ILI9488.h
 Step 1. Add the correct pinout for SPI bus interface
 	#define TFT_MISO 13
